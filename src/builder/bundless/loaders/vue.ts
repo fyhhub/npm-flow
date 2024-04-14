@@ -53,7 +53,11 @@ const vueTransformer = async function (this: any, content: string) {
     logger.error(compiledScript.warnings);
   }
   scriptCode +=
-    `\n` + rewriteDefault(compiledScript.content, COMP_IDENTIFIER, []);
+    `\n` +
+    rewriteDefault(compiledScript.content, COMP_IDENTIFIER, [
+      'typescript',
+      'jsx',
+    ]);
 
   // 拼接script
   clientCode += scriptCode;
