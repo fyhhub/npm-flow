@@ -1,3 +1,11 @@
+### [v0.0.3](https://github.com/fyhhub/npm-flow/compare/v0.0.2...v0.0.3)
+
+`2024-04-14`
+
+**Bug Fixes**
+
+- 修复 release 流程中 Publish 的 npm 源 [315039](https://github.com/fyhhub/npm-flow/commit/3150395837b544ca6323c937121b1b1b2f23e821)
+
 ### [v0.0.2](https://github.com/fyhhub/npm-flow/compare/b0c872a7c5459a0a385bf4b6b23d33bc1d3b4ec8...v0.0.2)
 
 `2024-04-14`
