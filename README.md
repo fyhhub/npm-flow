@@ -1,3 +1,7 @@
+# @viwo/npm-flow
+基于`father`二次开发，支持了`vue2和vue3`的 `bundless` 编译
+
+
 # Config
 
 支持以下配置项。
