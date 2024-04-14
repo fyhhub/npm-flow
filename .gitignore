@@ -1,0 +1,15 @@
+/node_modules
+/boilerplate/dist
+/boilerplate/node_modules
+/examples/*/compiled
+/examples/*/dist
+/examples/*/node_modules
+/dist
+.DS_Store
+/coverage
+/tests/fixtures/**/dist
+/tests/fixtures/deps/*/node_modules
+/tests/fixtures/dev/node_modules
+/tests/fixtures/build/*/node_modules
+/tests/fixtures/prebundle/*/compiled
+/tests/fixtures/prebundle/*/modules
