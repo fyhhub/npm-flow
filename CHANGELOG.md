@@ -1,3 +1,7 @@
+### [v0.0.5](https://github.com/fyhhub/npm-flow/compare/v0.0.4...v0.0.5)
+
+`2024-04-14`
+
 ### [v0.0.4](https://github.com/fyhhub/npm-flow/compare/v0.0.3...v0.0.4)
 
 `2024-04-14`

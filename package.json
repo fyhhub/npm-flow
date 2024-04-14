@@ -1,6 +1,6 @@
 {
   "name": "@viwo/npm-flow",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A bundless/bundle build tool",
   "homepage": "https://github.com/fyhhub/npm-flow#readme",
   "repository": {
