@@ -11,6 +11,7 @@ import {
 import { IJSTransformer } from '../types';
 
 const isTs = (p: string): boolean => p.endsWith('.ts') || p.endsWith('.tsx');
+const isVue = (p: string): boolean => p.endsWith('.vue');
 
 const isDirectory = (path: string) => {
   try {
@@ -108,7 +109,8 @@ const swcTransformer: IJSTransformer = async function (content) {
 
   const { alias: oAlias = {} } = this.config;
 
-  const isTSFile = isTs(this.paths.fileAbsPath);
+  const isTSFile =
+    isTs(this.paths.fileAbsPath) || isVue(this.paths.fileAbsPath);
   const isJSXFile = this.paths.fileAbsPath.endsWith('x');
 
   // transform alias to relative path for swc paths
