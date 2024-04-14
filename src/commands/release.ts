@@ -140,12 +140,15 @@ export default (api: IApi) => {
         console.log('No changes to commit.');
       }
 
-      step('Pushing to Gitlab...');
+      step('Pushing to Github...');
       await runIfNotDry('git', ['push', 'origin', `refs/tags/${targetTag}`]);
       await runIfNotDry('git', ['push']);
 
       step('Publish to npm...');
-      await runIfNotDry('npm', ['publish']);
+      await runIfNotDry('npm', [
+        'publish',
+        '--registry=https://registry.npmjs.org',
+      ]);
     },
   });
 };
