@@ -1,3 +1,11 @@
+### [v0.0.4](https://github.com/fyhhub/npm-flow/compare/v0.0.3...v0.0.4)
+
+`2024-04-14`
+
+**Bug Fixes**
+
+- 修复 swc 对 vue 文件的编译 [e42cef](https://github.com/fyhhub/npm-flow/commit/e42cefa70f49979c1be3510e8efae0946a45b7d4)
+
 ### [v0.0.3](https://github.com/fyhhub/npm-flow/compare/v0.0.2...v0.0.3)
 
 `2024-04-14`
